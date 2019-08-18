@@ -1,0 +1,140 @@
+@import '../../stylesheets/variables';
+@import '../../stylesheets/utility';
+
+
+
+.content{
+  padding: 15px 0 62px 0;
+  
+  .nav{
+    // height: 45px;
+    &{
+      display: flex;
+      align-items: flex-end;
+      flex-direction: column;
+    }
+    .row{
+      width: 200px;
+      height: 45px;
+      .col-md-7 {
+        .city{
+          position: absolute;
+          bottom: 10px;
+          color: $grey-01;
+        }
+        
+      }
+      .col-md-5 {
+        display: flex;
+        align-items: flex-end;
+        // flex-direction: column;
+        .nav-city-button {
+          width: 42px;
+          height: 42px;
+          background: $white-01;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 0 200px;
+          .content-bar-icon {
+            color: $grey-01;
+            width: "16px";
+            height: "14px";
+          }
+        }
+      } 
+    }
+  }
+
+  .p-padding-top {
+    padding: 42px 0 0 0;
+  }
+  .text-grey {
+    color: $grey-02;
+  }
+  
+  .container-content-status {
+    margin: 40px 0 0 0;
+    background-color: $white-01;
+    .row{
+      .col.col-md-7 {
+        .container-status-info {
+          padding-left: 40px;
+
+          .content-content-status {
+            .content-status-1 {
+              color: $grey-02;
+              span{
+                padding-left: 10px;
+              }
+            }
+            .content-status-2 {
+              color: $purple-01;
+              span{
+                padding-left: 10px;
+              }
+            }
+          }
+          .content-content-info {
+            padding: 60px 0 0 13px;
+          
+            .content-info {
+              .col-md-icon {
+                .calendar-icon {
+                  color: $grey-02;
+                }
+                .receipt-icon{
+                  color: $grey-02;
+                }
+                
+              }
+              .col-md-status-info {
+                
+                span{
+                  color: $grey-02;
+                  padding-left: 10px;
+                }
+                p{
+                  padding-left: 10px;
+                }
+              }
+            }
+            
+            
+          }
+        }  
+      }
+    }
+    
+
+    .content-buttons-list{
+      padding-top: 30px;
+      .content-button {
+        width: 100%;
+        height: 60px;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: capitalize;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 40px;
+        background-color: $white-02;
+      }
+    }
+    
+    .content-button-green {
+      color: $green-01;
+    }
+    .content-button-grey {
+      color: $grey-02;
+    }
+    .content-button-icon {
+      width: 18px;
+      height: 18px;
+      margin-right: 12px;
+    }
+  }
+  
+
+
+}
